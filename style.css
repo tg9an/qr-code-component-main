@@ -35,18 +35,18 @@ p {
 	background-color: var(--secondary-bg-color);
 	width: min-content;
 	height: min-content;
-	max-width: 320px;
-	max-height: 499px;
+	max-width: max(0.22em, 320px);
+	max-height: max(0.5197916em, 499px);
 	padding: 16px 16px 40px 16px;
 	margin: auto;
 	border-radius: 20px;
 	gap: 24px;
-	box-shadow: 0px 2px 20px -10px hsl(216, 15%, 48%);
+	box-shadow: 0px 2px 20px -10px var(--text-color);
 }
 
 img {
-	width: 288px;
-	height: 288px;
+	width: max(288px, 0.9em);
+	height: max(288px, 0.577em);
 	margin: auto;
 	border-radius: 10px;
 }
@@ -57,9 +57,9 @@ img {
 	font-family: "Outfit", sans-serif;
 	text-align: center;
 	width: fit-content;
-	max-width: 288px;
+	max-width: max(0.22em, 288px);
 	height: min-content;
-	max-height: 131px;
+	max-height: max(0.2625em, 131px);
 	margin: auto;
 	gap: 16px;
 }
@@ -68,9 +68,9 @@ img {
 	color: var(--heading-color);
 	font-size: 1.375rem;
 	width: fit-content;
-	max-width: 256px;
+	max-width: max(256px, 0.88em);
 	height: min-content;
-	max-height: 52px;
+	max-height: max(0.3969em, 52px);
 	margin: auto;
 }
 
@@ -78,9 +78,9 @@ img {
 	color: var(--text-color);
 	font-size: 0.9375rem;
 	width: fit-content;
-	max-width: 256px;
+	max-width: max(256px, 0.88em);
 	height: min-content;
-	max-height: 63px;
+	max-height: max(0.4809em, 63px);
 	margin: auto;
 	padding: 0px;
 }
